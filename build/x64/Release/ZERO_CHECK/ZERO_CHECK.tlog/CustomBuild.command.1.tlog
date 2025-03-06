@@ -1,0 +1,10 @@
+^C:\USERS\XDDDD\DOCUMENTS\HT_IN_C\BUILD\CMAKEFILES\413BD05EB9F2F284701C0E6982B06AAB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/xDDDD/Documents/ht_in_c -BC:/Users/xDDDD/Documents/ht_in_c/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/xDDDD/Documents/ht_in_c/build/ht_in_c.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
