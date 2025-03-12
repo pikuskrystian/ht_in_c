@@ -143,7 +143,3 @@ Contributions are welcome! Here are some ways you can contribute:
 ## License
 
 This project is open source and available under the MIT License.
-
-## Author
-
-Krystian Pikus 
